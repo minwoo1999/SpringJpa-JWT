@@ -1,2 +1,3 @@
-# SpringJpa-JWT
-JPA로 만든 JWT토큰발행 및 권한
+
+[Spring Boot JWT Tutorial]
+https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-jwt/dashboard
