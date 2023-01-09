@@ -4,10 +4,9 @@
 
 ## join Api
 
-![image](https://user-images.githubusercontent.com/79193811/211243080-cab2e6be-df4b-42ab-bb87-ed515d9d4181.png)
+![image](https://user-images.githubusercontent.com/79193811/211243155-d8384af0-4159-4fbe-9c7b-96dc9466d6ad.png)
 
 ## 권한 확인 api
 
-![image](https://user-images.githubusercontent.com/79193811/211243104-6eafc48a-d7ca-479d-a78b-9ae54f0122e4.png)
+![image](https://user-images.githubusercontent.com/79193811/211243187-69064c26-8faf-42d3-ab97-dc8289669504.png)
 
-![image](https://user-images.githubusercontent.com/79193811/211243121-8dd76d5c-2bef-4072-9895-38522ba69a36.png)
