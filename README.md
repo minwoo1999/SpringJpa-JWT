@@ -6,8 +6,7 @@ JPA로 만든 JWT토큰발행 및 권한
 
 ![image](https://user-images.githubusercontent.com/79193811/211472419-333a5a45-b535-4886-8023-9faa0b3d40d5.png)
 
-
-![image](https://user-images.githubusercontent.com/79193811/211472549-c96b0ed8-ee7b-472e-8705-a6497c5b6c46.png)
+![image](https://user-images.githubusercontent.com/79193811/211473295-6a5fddc1-7ab7-42d1-b58c-8690c18091dc.png)
 
 ## 토큰발급시 Refresh 토큰 및 Access Token 발급
 
