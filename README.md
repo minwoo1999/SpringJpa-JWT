@@ -19,6 +19,28 @@ JPA로 만든 JWT토큰발행 및 권한
 9. 최초의 AuthenticationFilter에 Authentication 객체가 반환됨
 10. Authentication 객체를 SecurityContext에 저장
 
+=====================================================================================================================================================================
+
+ 사용자가 request(username, password)를 보낼 때
+
+- Authenticationfilter 가 받아서, username과 Password와 관련된 Token을 생성한다. 
+
+- 토큰 값을 AuthenticationManager가 받아,
+
+- AuthenticationManager의 구현체인 AuthenticationProvider에게 넘긴다.
+
+(AuthenticationProvider은 여러 개 있을 수 있음)
+
+- AuthenticationProvider는 사용자가 보낸 password를 바탕으로 해서 PasswordEncoder를 통해서, Hashed password를 얻어낸다.
+
+- 또한 AuthenticationProvider가 UserDetailsService를 사용하여 DB의 User, Role에 접근한다. 
+
+- UserDetailsService에서 loadUserByUsername()을 통해 UserDetails를 리턴 받는다.
+
+- UserDetails의 password와 사용자가 넘겨준 password(Hashed password)를 바탕으로 하여 확인한다.
+
+- 인증이 성공적으로 이루어지면, AuthenticationFilter안에 SecurityContext에 Authentication 정보를 저장하게 된다.
+
 ## 토큰발급시 Refresh 토큰 및 Access Token 발급
 
 ![image](https://user-images.githubusercontent.com/79193811/211472872-54801e66-bf5d-45b5-9aa1-b4c8ae64c94f.png)
